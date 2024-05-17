@@ -1,0 +1,188 @@
+.register-screen{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100vh;
+}
+
+.register-screen .row{
+    height: 100%;
+}
+
+.animation-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.register-left .building {
+    width: 59%;
+    animation: moveIt 4.5s ease-in-out infinite;
+}
+
+.register-left .sun {
+    position: absolute;
+    right: 160px;
+    top: 50px;
+    animation: moveItt 4.5s ease-in-out infinite;
+    width: 100px !important;
+}
+
+@keyframes moveIt {
+    0%, 100% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-10deg);
+    }
+}
+
+@keyframes moveItt {
+    0%, 100% {
+        right: 260px;
+        top: 50px;
+    }
+    50% {
+        right: 170px;
+        top: -55px;
+    }
+}
+
+.register-left .lock {
+    width: 50%;
+}
+
+.register-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 0 8px #c3c2c20d;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    padding-top: 150px;
+    margin-top: 20px;
+}
+
+.register-right .logo{
+    position: absolute;
+    top: 13px;
+}
+
+.register-right .sign-up-fotm{
+    width: 100%;
+}
+
+.register-right .sign-up-fotm h2{
+    color: #344054;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.register-right .sign-up-fotm p{
+    color: #78808D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.register-right .sign-up-fotm p.have-an-account{
+    margin-bottom: 0;
+    text-align: center;
+    color: #78808D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.register-right .sign-up-fotm p.have-an-account a,
+.register-right .sign-up-fotm p.have-an-account span{
+    color: #007BFF !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.register-right .sign-up-fotm p.have-an-account.have-an-account-otp{
+    font-weight: 700;
+    color: #BBBFC6;
+}
+
+.verify-left .logo{
+    left: 20px;
+}
+
+.register-left .key {
+    position: absolute;
+    right: 90px;
+    top: 80px;
+    animation: moveIttt 4.5s ease-in-out infinite;
+    width: 160px !important;
+}
+@keyframes moveIttt {
+    0%, 100% {
+    right: 90px;
+    top: 80px;
+    transform: rotate(0deg);
+    
+    
+    }
+    50% {
+        right: 150px;
+        top: 200px;
+        transform: rotate(60deg);
+    }
+}
+
+.otp-form{
+    text-align: center;
+}
+
+.otp-form h2{
+    text-align: center;
+font-size: 48px !important;
+font-weight: 700 !important;
+line-height: 64px;
+letter-spacing: 0.10000000149011612px;
+}
+
+.otp-form h2 a{
+    text-decoration: none;
+    color: #BBBFC6;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.varify-otp-form-wrp{
+    margin: 24px 0;
+    padding-top: 64px;
+}
+
+.varify-otp-form-wrp form{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.varify-otp-form-wrp form input{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #DFE3E8 !important;
+    text-align: center;
+}
+
+.sign-in-form-wrp{
+    margin: 24px 0;
+}
+
+.from-input-description{
+    font-size: 0.7rem;
+    font-style: italic;
+}

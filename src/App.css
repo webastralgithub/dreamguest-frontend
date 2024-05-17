@@ -1,0 +1,225 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background: #FCFDFF;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: #e2e2e2;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+  height: 5px;
+	background-color: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #bdbdbd;
+}
+
+.model-custom-dsg .modal-content{
+  border: none;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.model-custom-dsg .modal-content .modal-header{
+  padding: 0px;  
+  border-bottom: none;
+}
+
+.model-custom-dsg .modal-content .modal-header .modal-title{
+  color: #344054;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.10000000149011612px;
+}
+
+.model-custom-dsg .modal-content .modal-header button{
+  color: #344054;
+  opacity: 1;
+  color: #344054;
+  opacity: 1;
+  width: 13.18px;
+  height: 13.18px;
+}
+
+.model-custom-dsg .modal-content .modal-body{
+  padding: 0;
+  margin-top: 24px;
+}
+
+form button{
+  width: 100%;
+  margin-top: 8px;
+
+  background: #007BFF;
+  padding: 12px 16px !important;
+  border-radius: 12px !important;
+
+  color: #FFFFFF !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 22px !important;
+  letter-spacing: 0.10000000149011612px;
+}
+
+form label{
+   color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+form input,
+form select{
+  border: 1px solid #F4F6F8 !important;
+
+  color: #344054 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+  letter-spacing: 0.10000000149011612px;
+  padding: 12px !important;
+}
+
+
+form .form-check{
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+form .form-check label{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #78808D;
+}
+
+form input.form-check-input{
+  border: 3px solid #BBBFC6 !important;
+  width: 18px !important;
+  height: 18px !important;
+  padding: 7px !important;
+  margin-top: -1px;
+}
+
+form input::placeholder{
+  color:#BBBFC6 !important;
+  opacity: 1 !important;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .side-bar-wrapper{
+    height: auto !important;
+    width: 70% !important;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed !important;
+    justify-content: flex-end;
+    background: none !important;
+    padding: 12px 20px !important;
+    box-shadow: none !important;
+  }
+
+  .burgur-menu-wrap{
+     display: none !important;
+  }
+
+  .top-bar-fix{
+    justify-content: flex-end !important;
+  }
+
+  .side-bar-wrapper nav {
+    margin-top: 0px !important;
+  }
+
+  .side-bar-wrapper nav .navbar-collapse .navbar-nav{
+    width: 100vw;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 78px;
+    background: #fff;
+    padding: 22px;
+    box-shadow: 0 10px 14px #0000000f;
+  }
+
+  .table-page-top{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dashboard-choice-wrapper{
+    width: 100% !important;
+  }
+
+  .dash-option-wrp, .dash-option-wrp button, .serach-ontable, .popup-table th{
+    width: 100% !important;    
+  }
+
+  .popup-table tr{
+    flex-direction: column;
+  }
+
+  .dash-choose-op-wrp{
+    text-align: center;
+  }
+
+  .Login-right .logo{
+    position: unset !important;
+  }
+
+  .Login-right .sign-up-fotm.otp-form h2 {
+    font-size: 31px !important;
+  }
+
+  .animation-wrapper .login-left .key{
+    animation: unset !important;
+    transform: rotate(58deg) !important;
+    right: 83px !important;
+    top: 110px !important;
+    width: 129px !important;
+  }
+
+  .login-left .building{
+    animation: unset !important;
+  }
+
+  .login-left .sun{
+    animation: unset !important;  
+    right: 103px !important;
+    top: -30px !important;  
+  }
+
+  .dash-choose-op-wrp h2 {
+    font-size: 24px !important;
+  }
+
+  ul.nav-tabs{
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  ul.nav-tabs li.nav-item {
+    width: max-content !important;
+  }
+
+  ul.nav-tabs li.nav-item button {
+    width: max-content !important;
+    padding: 10px 8px !important;
+  }
+}

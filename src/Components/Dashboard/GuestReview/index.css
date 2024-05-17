@@ -1,0 +1,25 @@
+.wrap-search{
+        display: flex;
+}
+.wrap-search button {
+    height: 37px;
+    margin-top: 5px;  
+}
+
+.clenLess-star-rating-sec, .adherence-star-rating-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-responsive-lg table.table tbody tr td button {
+    border: 1px solid #007bff;
+    background: #fff;
+    color: #007bff;
+}
+
+.table-responsive-lg table.table tbody tr td button:hover{
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff;
+}
